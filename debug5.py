@@ -8,7 +8,7 @@ x = 5
 if x == 3 or 4:
     print("x is either a 3 or a 4")
 """
-x = 5
+x = 4
 
-if x == 3 or 4:
+if x == 3 or x == 4:
     print("x is either a 3 or a 4")

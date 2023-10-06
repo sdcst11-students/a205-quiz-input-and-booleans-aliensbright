@@ -8,7 +8,10 @@ xi = int(x)
 if (x - xi) == 0:
     print(f"{x} is an integer")
 """
-x = input("enter a decimal number"))
-xi = int(x)
+x = float(input("enter a decimal number"))
+
+xi = round(x,0)
 if (x - xi) == 0:
     print(f"{x} is an integer")
+else:
+    print(f"{x} is not an integer")
